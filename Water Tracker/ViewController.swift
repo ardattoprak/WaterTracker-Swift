@@ -26,12 +26,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        sifirla()
+        reset()
         updateAppereance()
     }
     // MARK: - Functions
     
-    func sifirla(){
+    func reset(){
         waterStore.defaults.set(0, forKey: "currentAmount")
     }
     
@@ -45,20 +45,23 @@ class ViewController: UIViewController {
         UIViewPropertyAnimator.init(duration: 0.5, dampingRatio: 0.75) { self.view.layoutIfNeeded() }.startAnimation()
     }
     
-    func updateLabels(amount: Double) {
-        let amountToTarget = ((targetAmount - amount) / 1000 )
+    func updateLabels(amount: Double){
+        let amountToTarget = (targetAmount - amount) / 1000
         
-        if amount < targetAmount {
-            let subtitleText = String(format: "Bugünkü ihtiyacını karşılamak için \n%g litre daha su içmelisin ", amountToTarget)
-            if amount == 0 {
+        if amount < targetAmount{
+            let subtitleText = String(format: "Bugünkü ihtiyacını karşılamak için \n%g litre daha su içmelisin", amountToTarget)
+            subtitleLabel.text = subtitleText
+            
+            if amount == 0{
                 titleLabel.text = "Merhaba! \nBugün su içtin mi?"
-            } else {
-                titleLabel.text = "Tebrikler! \nDoğru yoldasın."
+            }else{
+                titleLabel.text = "Tebrikler! \nDoğru yoldasınız"
             }
-        } else {
+        }else{
             titleLabel.text = "Muhteşem! \nKendine iyi baktın"
-            subtitleLabel.text = "Bugün vücudun için gereken su miktarının tamamını karşıladın"
+            subtitleLabel.text = "Bugün vücudun için gereken \nsu miktarının tamamını karşıladın"
         }
+        
     }
     
     func updateAppereance() {
