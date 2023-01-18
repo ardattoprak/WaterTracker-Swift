@@ -60,12 +60,12 @@
 			children = (
 				094B09B8297324D8008D182E /* AppDelegate.swift */,
 				094B09BA297324D8008D182E /* SceneDelegate.swift */,
+				0991F9B82978723B00104770 /* DataStore.swift */,
 				094B09BC297324D8008D182E /* ViewController.swift */,
 				094B09BE297324D8008D182E /* Main.storyboard */,
 				094B09C1297324D9008D182E /* Assets.xcassets */,
 				094B09C3297324D9008D182E /* LaunchScreen.storyboard */,
 				094B09C6297324D9008D182E /* Info.plist */,
-				0991F9B82978723B00104770 /* DataStore.swift */,
 			);
 			path = "Water Tracker";
 			sourceTree = "<group>";

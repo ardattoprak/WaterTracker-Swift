@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7A205B48-E58F-4C26-8FFD-CFFE44FF07CF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A2C5E71D-7890-4F83-BA47-DBEFF580586D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Water Tracker/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A2C5E71D-7890-4F83-BA47-DBEFF580586D - 9927a2740ce7dcf3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Water_Tracker.ViewController.waterStore.getter : Water_Tracker.DataStore"
+                  moduleName = "Water Tracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ardatoprak/Desktop/Water%20Tracker/Water%20Tracker/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "A2C5E71D-7890-4F83-BA47-DBEFF580586D - ea9ffb05b07a0e15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Water_Tracker.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Water_Tracker.ViewController"
+                  moduleName = "Water Tracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ardatoprak/Desktop/Water%20Tracker/Water%20Tracker/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "232">
+               </Location>
+               <Location
+                  uuid = "A2C5E71D-7890-4F83-BA47-DBEFF580586D - a44e715db8f27852"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Water_Tracker.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Water_Tracker.ViewController&gt;"
+                  moduleName = "Water Tracker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ardatoprak/Desktop/Water%20Tracker/Water%20Tracker/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "208">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -17,25 +17,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eaA-Ce-Dea">
-                                <rect key="frame" x="0.0" y="524" width="390" height="320"/>
+                                <rect key="frame" x="0.0" y="490" width="390" height="320"/>
                                 <color key="backgroundColor" systemColor="systemCyanColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="320" id="dqf-Pc-xca"/>
+                                    <constraint firstAttribute="height" constant="320" id="fKg-49-INx"/>
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="lqx-vO-Bxj">
-                                <rect key="frame" x="30" y="57" width="330" height="147"/>
+                                <rect key="frame" x="30" y="57" width="330" height="130"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sLH-Fl-ysV">
-                                        <rect key="frame" x="0.0" y="0.0" width="330" height="98.333333333333329"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sLH-Fl-ysV">
+                                        <rect key="frame" x="0.0" y="0.0" width="330" height="81.333333333333329"/>
                                         <string key="text">Merhaba!
 Bugün su içtin mi?</string>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XdN-ky-EMe">
-                                        <rect key="frame" x="0.0" y="106.33333333333334" width="330" height="40.666666666666657"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XdN-ky-EMe">
+                                        <rect key="frame" x="0.0" y="89.333333333333343" width="330" height="40.666666666666657"/>
                                         <string key="text">Bugünkü ihtiyacını karşılamak için 
 2.7 litre su daha içmelisin.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -44,17 +44,14 @@ Bugün su içtin mi?</string>
                                     </label>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="4Qs-Uf-nGp">
-                                <rect key="frame" x="30" y="631" width="330" height="129"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="4Qs-Uf-nGp">
+                                <rect key="frame" x="30" y="650.66666666666663" width="330" height="109.33333333333337"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="90Z-9D-SCp">
-                                        <rect key="frame" x="0.0" y="0.0" width="100.66666666666667" height="129"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="90Z-9D-SCp">
+                                        <rect key="frame" x="0.0" y="0.0" width="90" height="109.33333333333333"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="imo-gp-AQi">
-                                                <rect key="frame" x="0.0" y="0.0" width="100.66666666666667" height="100.66666666666667"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="imo-gp-AQi" secondAttribute="height" multiplier="1:1" id="a11-OU-ePx"/>
-                                                </constraints>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="imo-gp-AQi">
+                                                <rect key="frame" x="0.0" y="0.0" width="90" height="81"/>
                                                 <inset key="imageEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="Glass" title="">
                                                     <backgroundConfiguration key="background">
@@ -62,25 +59,22 @@ Bugün su içtin mi?</string>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="addWaterButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n9z-iN-yId"/>
+                                                    <action selector="addWaterButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mfm-go-yMx"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="200 ml" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXK-5p-Adf">
-                                                <rect key="frame" x="0.0" y="108.66666666666663" width="100.66666666666667" height="20.333333333333343"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="200 ml" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXK-5p-Adf">
+                                                <rect key="frame" x="0.0" y="89" width="90" height="20.333333333333329"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="Czh-ay-IpH">
-                                        <rect key="frame" x="115.66666666666666" y="0.0" width="99.666666666666657" height="129"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="Czh-ay-IpH">
+                                        <rect key="frame" x="110" y="0.0" width="90" height="109.33333333333333"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Erb-4g-zwh">
-                                                <rect key="frame" x="0.0" y="0.0" width="99.666666666666671" height="99.666666666666671"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="Erb-4g-zwh" secondAttribute="height" multiplier="1:1" id="xLf-1l-sx1"/>
-                                                </constraints>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Erb-4g-zwh">
+                                                <rect key="frame" x="0.0" y="0.0" width="90" height="80"/>
                                                 <inset key="imageEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="Bottle" title="">
                                                     <backgroundConfiguration key="background">
@@ -88,25 +82,22 @@ Bugün su içtin mi?</string>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="addWaterButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mm1-Bz-TRX"/>
+                                                    <action selector="addWaterButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iKN-76-GO1"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="500 ml" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0pF-Uf-7JM">
-                                                <rect key="frame" x="0.0" y="108.66666666666663" width="99.666666666666671" height="20.333333333333343"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="500 ml" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0pF-Uf-7JM">
+                                                <rect key="frame" x="0.0" y="89" width="90" height="20.333333333333329"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="TyL-Qg-r2E">
-                                        <rect key="frame" x="230.33333333333329" y="0.0" width="99.666666666666657" height="129"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="TyL-Qg-r2E">
+                                        <rect key="frame" x="220" y="0.0" width="110" height="109.33333333333333"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z92-Id-6bx">
-                                                <rect key="frame" x="0.0" y="0.0" width="99.666666666666671" height="99.666666666666671"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="z92-Id-6bx" secondAttribute="height" multiplier="1:1" id="bGt-kp-Z2o"/>
-                                                </constraints>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z92-Id-6bx">
+                                                <rect key="frame" x="0.0" y="0.0" width="110" height="80"/>
                                                 <inset key="imageEdgeInsets" minX="15" minY="15" maxX="15" maxY="15"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="Flask" title="">
                                                     <backgroundConfiguration key="background">
@@ -114,11 +105,11 @@ Bugün su içtin mi?</string>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="addWaterButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QHG-sH-bcf"/>
+                                                    <action selector="addWaterButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1X7-KE-B2q"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="500 ml" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4D-ot-jT9">
-                                                <rect key="frame" x="0.0" y="108.66666666666663" width="99.666666666666671" height="20.333333333333343"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="500 ml" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4D-ot-jT9">
+                                                <rect key="frame" x="0.0" y="89" width="110" height="20.333333333333329"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -131,23 +122,19 @@ Bugün su içtin mi?</string>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="eaA-Ce-Dea" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1P4-C1-2mZ"/>
-                            <constraint firstItem="lqx-vO-Bxj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Dg9-tR-uZP"/>
-                            <constraint firstAttribute="trailing" secondItem="eaA-Ce-Dea" secondAttribute="trailing" id="FKH-bl-nQK"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4Qs-Uf-nGp" secondAttribute="trailing" constant="30" id="FWm-gf-DFj"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4Qs-Uf-nGp" secondAttribute="bottom" constant="50" id="KQ2-ki-L6R"/>
-                            <constraint firstItem="lqx-vO-Bxj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="Rrh-Gw-0X4"/>
-                            <constraint firstItem="eaA-Ce-Dea" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="T9b-QD-JK4"/>
-                            <constraint firstItem="eaA-Ce-Dea" firstAttribute="top" secondItem="lqx-vO-Bxj" secondAttribute="bottom" constant="320" id="dJ2-0r-foi"/>
-                            <constraint firstAttribute="bottom" secondItem="eaA-Ce-Dea" secondAttribute="bottom" id="eml-mt-ibD"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lqx-vO-Bxj" secondAttribute="trailing" constant="30" id="i02-Sh-8g9"/>
-                            <constraint firstItem="4Qs-Uf-nGp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="lmK-R9-VFi"/>
-                            <constraint firstItem="eaA-Ce-Dea" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="n4z-ML-RxF"/>
-                            <constraint firstAttribute="bottom" secondItem="eaA-Ce-Dea" secondAttribute="bottom" id="o9R-lt-gpj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lqx-vO-Bxj" secondAttribute="trailing" constant="30" id="1tG-hN-d9i"/>
+                            <constraint firstItem="lqx-vO-Bxj" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="10" id="WxT-X2-npo"/>
+                            <constraint firstItem="eaA-Ce-Dea" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XRx-AI-jvO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4Qs-Uf-nGp" secondAttribute="bottom" constant="50" id="c5n-W0-9di"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="eaA-Ce-Dea" secondAttribute="bottom" id="doo-Vc-MdO"/>
+                            <constraint firstItem="eaA-Ce-Dea" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="kda-ha-9nV"/>
+                            <constraint firstItem="4Qs-Uf-nGp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="md5-hY-1uR"/>
+                            <constraint firstItem="lqx-vO-Bxj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="wbT-Q8-LcB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4Qs-Uf-nGp" secondAttribute="trailing" constant="30" id="yrs-aX-HEb"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="addWaterConstraint" destination="dqf-Pc-xca" id="cSB-oa-3Fx"/>
+                        <outlet property="addWaterConstraint" destination="fKg-49-INx" id="Qru-no-Fvo"/>
                         <outlet property="subtitleLabel" destination="XdN-ky-EMe" id="10R-5Y-nuo"/>
                         <outlet property="titleLabel" destination="sLH-Fl-ysV" id="fVd-CZ-9eG"/>
                     </connections>
